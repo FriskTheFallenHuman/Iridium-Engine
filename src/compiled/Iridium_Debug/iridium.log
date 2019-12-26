@@ -1,0 +1,160 @@
+﻿Build started 25/12/2019 6:51:40 p. m..
+     1>Project "C:\Users\Nick\Documents\GitHub\Iridium\src\iridium.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nick\Documents\GitHub\Iridium\src\\build\/Iridium_x86.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:libs\ wsock32.lib winmm.lib zlib_d.lib libogg_d.lib libvorbisfile_d.lib turbojpeg.lib libpng_d.lib libcurl_r.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /NODEFAULTLIB:LIBCD /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\Iridium_x86.pdb" /MAP:"C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\Iridium_x86.map" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\Nick\Documents\GitHub\Iridium\src\\build\Iridium_x86.lib" /MACHINE:X86 /SAFESEH:NO C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\iridium.res
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_cin.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_cinematic.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_console.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_download.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_effects.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_ents.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_event.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_http.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_input.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_inv.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_keys.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_lights.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_loc.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_main.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_parse.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_particle.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_pred.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_screen.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_string.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_tempent.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_utils.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cl_view.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\snd_dma.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\snd_mem.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\snd_mix.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\snd_stream.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\x86.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\m_flash.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\q_shared.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cmd.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cmodel.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\common.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\crc.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cvar.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\files.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\md4.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\net_chan.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\pmove.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\wildcard.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_alias.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_alias_md2.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_alias_misc.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_arb_program.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_backend.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_beam.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_bloom.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_draw.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_entity.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_fog.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_fragment.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_glstate.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_image.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_light.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_main.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_misc.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_model.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_particle.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_sky.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_sprite.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_surface.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_vlights.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\r_warp.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\sv_ccmds.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\sv_ents.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\sv_game.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\sv_init.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\sv_main.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\sv_send.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\sv_user.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\sv_world.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_backend.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_game.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_game_credits.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_game_saveload.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_main.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_mp_addressbook.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_mp_dmoptions.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_mp_download.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_mp_joinserver.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_mp_playersetup.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_mp_startserver.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_multiplayer.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_options.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_options_controls.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_options_effects.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_options_interface.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_options_keys.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_options_screen.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_options_sound.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_quit.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_subsystem.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_video.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\ui_video_advanced.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\cd_win.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\conproc.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\glw_imp.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\in_win.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\net_wins.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\qgl_win.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\q_shwin.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\snd_win.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\sys_console.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\sys_win.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\Iridium_Debug\\vid_dll.obj
+     1>cl_cin.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>zlib_d.lib(adler32.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'zlib_d.lib(adler32.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>zlib_d.lib(crc32.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'zlib_d.lib(crc32.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>zlib_d.lib(inflate.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'zlib_d.lib(inflate.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>zlib_d.lib(inftrees.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'zlib_d.lib(inftrees.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>zlib_d.lib(zutil.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'zlib_d.lib(zutil.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>zlib_d.lib(ioapi.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'zlib_d.lib(ioapi.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>zlib_d.lib(unzip.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'zlib_d.lib(unzip.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libogg_d.lib(bitwise.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libogg_d.lib(bitwise.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libogg_d.lib(framing.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libogg_d.lib(framing.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(vorbisfile.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(vorbisfile.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(window.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(window.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(synthesis.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(synthesis.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(smallft.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(smallft.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(sharedbook.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(sharedbook.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(res0.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(res0.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(registry.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(registry.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(psy.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(psy.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(mdct.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(mdct.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(mapping0.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(mapping0.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(lsp.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(lsp.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(lpc.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(lpc.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(info.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(info.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(floor1.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(floor1.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(floor0.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(floor0.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(envelope.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(envelope.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(codebook.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(codebook.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(block.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(block.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libvorbisfile_d.lib(bitrate.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'libvorbisfile_d.lib(bitrate.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc90.pdb'; linking object as if no debug info
+     1>libpng_d.lib(png.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(png.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngerror.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngerror.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngget.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngget.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngmem.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngmem.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngread.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngread.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngrio.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngrio.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngrtran.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngrtran.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngrutil.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngrutil.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngset.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngset.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngtrans.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngtrans.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngwio.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngwio.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngwrite.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngwrite.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngwtran.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngwtran.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(pngwutil.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(pngwutil.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(trees.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(trees.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(deflate.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(deflate.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+     1>libpng_d.lib(compress.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'libpng_d.lib(compress.obj)' or at 'C:\Users\Nick\Documents\GitHub\Iridium\src\compiled\Iridium_Debug\vc70.pdb'; linking object as if no debug info
+         iridium.vcxproj -> C:\Users\Nick\Documents\GitHub\Iridium\src\\build\Iridium_x86.exe
+     1>Done Building Project "C:\Users\Nick\Documents\GitHub\Iridium\src\iridium.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.35

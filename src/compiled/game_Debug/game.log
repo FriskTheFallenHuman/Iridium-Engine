@@ -1,0 +1,89 @@
+﻿Build started 25/12/2019 4:23:42 p. m..
+     1>Project "C:\Users\Nick\Documents\GitHub\Iridium\src\game\game.vcxproj" on node 2 (Build target(s)).
+     1>ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /nologo /fo"C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\game.res" game.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Nick\Documents\GitHub\Iridium\src\\build\baseq2\/game_x86.dll" /INCREMENTAL:NO /NOLOGO winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"game.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\game_x86.pdb" /MAP:"C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\game_x86.map" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x20000000" /DYNAMICBASE:NO /IMPLIB:"C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\game_x86.lib" /MACHINE:X86 /SAFESEH /DLL C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\game.res
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\acebot_ai.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\acebot_cmds.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\acebot_compress.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\acebot_items.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\acebot_movement.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\acebot_nodes.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\acebot_spawn.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_ai.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_camera.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_chase.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_cmds.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_combat.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_crane.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_ctf.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_fog.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_func.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_items.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_jetpack.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_lights.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_lock.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_main.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_misc.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_model.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_monster.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_moreai.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_mtrain.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_patchplayermodels.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_pendulum.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_phys.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_reflect.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_save.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_spawn.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_svcmds.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_target.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_thing.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_tracktrain.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_trigger.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_turret.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_utils.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_vehicle.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\g_weapon.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\km_cvar.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_actor.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_actor_weap.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_berserk.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_boss2.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_boss3.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_boss31.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_boss32.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_brain.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_chick.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_flash.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_flipper.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_float.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_flyer.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_gladiator.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_gunner.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_hover.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_infantry.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_insane.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_medic.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_move.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_mutant.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_parasite.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_soldier.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_supertank.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\m_tank.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\p_chase.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\p_client.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\p_hud.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\p_menu.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\p_text.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\p_trail.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\p_view.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\p_weapon.obj
+         C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\q_shared.obj
+            Creating library C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\game_x86.lib and object C:\Users\Nick\Documents\GitHub\Iridium\src\\compiled\game_Debug\\game_x86.exp
+         game.vcxproj -> C:\Users\Nick\Documents\GitHub\Iridium\src\\build\baseq2\game_x86.dll
+     1>Done Building Project "C:\Users\Nick\Documents\GitHub\Iridium\src\game\game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.79
