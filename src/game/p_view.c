@@ -1047,46 +1047,49 @@ void G_SetClientEvent (edict_t *ent)
 	if (ent->s.event)
 		return;
 
-	if ( ent->groundentity || PlayerOnFloor(ent))
+	if ( xyspeed != 0 ) // Kris: Always makes footsepts
 	{
-		if (!ent->waterlevel && ( xyspeed > 225) && !ent->vehicle)
+		if ( ent->groundentity || PlayerOnFloor(ent))
 		{
-			if ( (int)(current_client->bobtime+bobmove) != bobcycle )
-				ent->s.event = EV_FOOTSTEP;	 //Knightmare- move Lazarus footsteps client-side
-		}
-		else if( ent->in_mud && (ent->waterlevel == 1) && (xyspeed > 40))
-		{
-			if ( (level.framenum % 10) == 0 )
-				ent->s.event = EV_WADE_MUD; //Knightmare- move this client-side
-		}
-		else if ( ((ent->waterlevel == 1) || (ent->waterlevel == 2)) && (xyspeed > 100) && !(ent->in_mud) )
-		{
-			if ( (int)(current_client->bobtime+bobmove) != bobcycle )
+			if (!ent->waterlevel && !ent->vehicle)
 			{
-				if (ent->waterlevel == 1)
-					ent->s.event = EV_SLOSH;	 //Knightmare- move Lazarus footsteps client-side
-				else if (ent->waterlevel == 2)
-					ent->s.event = EV_WADE;	 //Knightmare- move Lazarus footsteps client-side
+				if ( (int)(current_client->bobtime+bobmove) != bobcycle )
+					ent->s.event = EV_FOOTSTEP;	 //Knightmare- move Lazarus footsteps client-side
+			}
+			else if( ent->in_mud && (ent->waterlevel == 1))
+			{
+				if ( (level.framenum % 10) == 0 )
+					ent->s.event = EV_WADE_MUD; //Knightmare- move this client-side
+			}
+			else if ( ((ent->waterlevel == 1) || (ent->waterlevel == 2)) && !(ent->in_mud) )
+			{
+				if ( (int)(current_client->bobtime+bobmove) != bobcycle )
+				{
+					if (ent->waterlevel == 1)
+						ent->s.event = EV_SLOSH;	 //Knightmare- move Lazarus footsteps client-side
+					else if (ent->waterlevel == 2)
+						ent->s.event = EV_WADE;	 //Knightmare- move Lazarus footsteps client-side
+				}
 			}
 		}
-	}
-	//Knightmare- swimming sounds
-	else if ((ent->waterlevel == 2) && (xyspeed > 60) && !(ent->in_mud))
-	{
-		if ( (int)(current_client->bobtime+bobmove) != bobcycle )
-			ent->s.event = EV_WADE;	 //Knightmare- move Lazarus footsteps client-side
-	}
-	else if( (level.framenum % 4) == 0)
-	{
-		if(!ent->waterlevel && (ent->movetype != MOVETYPE_NOCLIP) && (fabs(ent->velocity[2]) > 50))
+		//Knightmare- swimming sounds
+		else if ((ent->waterlevel == 2) && !(ent->in_mud))
 		{
-			vec3_t	end, forward;
-			trace_t	tr;
-			AngleVectors(ent->s.angles,forward,NULL,NULL);
-			VectorMA(ent->s.origin,2,forward,end);
-			tr = gi.trace(ent->s.origin,ent->mins,ent->maxs,end,ent,CONTENTS_LADDER);
-			if(tr.fraction < 1.0)
-				ent->s.event = EV_CLIMB_LADDER;	 //Knightmare- move Lazarus footsteps client-side
+			if ( (int)(current_client->bobtime+bobmove) != bobcycle )
+				ent->s.event = EV_WADE;	 //Knightmare- move Lazarus footsteps client-side
+		}
+		else if( (level.framenum % 4) == 0)
+		{
+			if(!ent->waterlevel && (ent->movetype != MOVETYPE_NOCLIP) && (fabs(ent->velocity[2]) > 50))
+			{
+				vec3_t	end, forward;
+				trace_t	tr;
+				AngleVectors(ent->s.angles,forward,NULL,NULL);
+				VectorMA(ent->s.origin,2,forward,end);
+				tr = gi.trace(ent->s.origin,ent->mins,ent->maxs,end,ent,CONTENTS_LADDER);
+				if(tr.fraction < 1.0)
+					ent->s.event = EV_CLIMB_LADDER;	 //Knightmare- move Lazarus footsteps client-side
+			}
 		}
 	}
 }
